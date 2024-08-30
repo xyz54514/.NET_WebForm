@@ -1,0 +1,4 @@
+Employee_ID,Employee_Name,Sex,Email,Dept,JoiningDate
+453719,"Sophia,Chen",2,sophia.chen@example.com,電商二部,2023/03/15 16:20:00.000
+563309,David Liu,1,david.liu@example.com,金融一部,2023/05/25 22:05:00.000
+673309,Olivia Chang,2,olivia.chang@example.com,金融二部,2023/06/30 01:00:00.000

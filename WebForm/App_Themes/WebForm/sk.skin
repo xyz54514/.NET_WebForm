@@ -1,0 +1,37 @@
+﻿<%--
+預設面板範本。下列面板僅提供做為範例的用途。
+
+1. 具名控制面板。SkinId 應為唯一定義，因為在相同主題中，一個控制項型別不能具有重複的 SkinId。
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. 預設面板。SkinId 未定義。在相同主題中，每個控制項型別只能有一個預設控制面板。
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
+
+--%>
+<asp:Label runat ="server" CssClass="skText" />
+<asp:Label runat ="server" CssClass="skTextBold" SkinID="skTextBold" />
+<asp:TextBox runat="server" CssClass="skTextBox" ></asp:TextBox>
+<asp:TextBox runat="server" CssClass="skTextBoxFull" SkinID="skTextBoxFull" ></asp:TextBox>
+
+<asp:DropDownList runat="server" CssClass="skDropDownList" ></asp:DropDownList>
+<asp:Button runat="server" CssClass="Button_MouseOut" onMouseOver="this.className='Button_MouseOver';" onMouseOut="this.className='Button_MouseOut';" onMouseUp="this.className='Button_MouseUp';" onMouseDown="this.className='Button_MouseDown';"  />
+<asp:Button runat="server" CssClass="btnLogon" SkinID="btnLogon"  />
+
+<%--GridView預設樣式
+
+ <HeaderStyle CssClass="FormTitle" />
+    <RowStyle CssClass="gvMain_Row" />
+    <PagerStyle HorizontalAlign="Center" CssClass="gv_pager" />
+--%>
+<asp:GridView runat="server" CssClass="gvMain" CellPadding="6" CellSpacing="0" GridLines="Both" >
+    <RowStyle CssClass="gvMain_Row" />
+    <HeaderStyle CssClass="gvFormTitle" />
+    <EmptyDataTemplate>
+        <table align="Center"><td >No data found</td></table>
+    </EmptyDataTemplate>
+</asp:GridView>
+

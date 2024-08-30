@@ -1,0 +1,1347 @@
+﻿HTML
+{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background: #ffffff;
+    color: #333333;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: x-small;
+    border: none;
+}
+
+BODY
+{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    background: #ffffff;
+    color: #333333;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: x-small;
+    border: none;
+}
+
+.modalBackground
+{
+    background-color: gray;
+    filter: alpha(opacity=60);
+}
+
+/*背景圖-漸層粉*/
+.Bg
+{
+    background-image: url(            '../images/canvas.gif' );
+}
+
+/*背景色-粉*/
+.PinkBg
+{
+    background-color: #FDCBCB;
+    text-align: center;
+}
+
+/*背景色-深藍*/
+.BlueBg
+{
+    background-color: #007FB1;
+    text-align: center;
+}
+
+.PurpleBg {
+    background-color: #800080;
+    text-align: center;
+}
+
+/*背景圖-TopFrame*/
+.TitleBg
+{
+    /*background-color: #B80019; /*紅色系*/ /*background-color: #B80019; /*紅藍系*/ /*background-color:#4C71B8; /*藍色系*/
+    background-color: #ABCB3A; /*綠藍系*/ /*background-image: url(   '../images/background.png' );*/
+}
+
+.SystemBar
+{
+    background-image: url(        '../images/Logo_Left.png' );
+    background-repeat: no-repeat;
+    background-color: #0072AA;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr=#37AB4D, EndColorStr=#0164A6);
+}
+
+.SystemBarBg
+{
+    background-image: url(         '../images/TitleBg.gif' );
+}
+
+
+.btnTree
+{
+    height: 26px;
+    background-image: url(         '../images/TreeBtn.jpg' );
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+
+.btnTreeHover
+{
+    height: 26px;
+    background-image: url(         '../images/TreeBtn2.jpg' );
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+
+.TreeItem
+{
+    min-height: 28px;
+    padding-left: 20px;
+    border: solid 1px #EEEEEE;
+    color: black;
+    font-size: 9px;
+}
+
+.TreeItemHover
+{
+    min-height: 28px;
+    padding-left: 20px;
+    border: solid 1px #EEEEEE;
+    color: #FF4D00;
+    font-size: 9px;
+}
+
+/*登入Table用-深藍Border*/
+.SystemTable
+{
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: x-small;
+    text-align: left;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border: 1px solid #0164A6;
+}
+
+/*double Table用-粉*/
+.DoubleTable
+{
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: x-small;
+    text-align: left;
+    border-left: 1px;
+    border-right: 1px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border: 6px double #DA031C;
+}
+
+
+/*主要Table 內容 (灰底-寬100%)*/
+.MainTable
+{
+    width: 100%;
+    text-align: left;
+    letter-spacing: 1px;
+    background-color: #F4F4F4;
+    line-height: 25px;
+}
+
+/*標題用- 粉紅區塊 */
+table td.Tab
+{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Arial";
+    white-space: nowrap;
+    background-color: #FF9A9C;
+}
+
+/*TD*/
+
+.igg_Header
+{
+    background-color: #6EA3CC;
+    background-repeat: repeat-x;
+    background-image: url(../ig_res/Default/images/igg_header.gif);
+    height: 20px;
+    color: Black;
+}
+
+/*TD*/
+
+.igg_Header2
+{
+    background-color: #6EA3CC;
+    background-repeat: repeat-x;
+    background-image: url(../ig_res/Default/images/igg_header2.gif);
+    height: 20px;
+    color: Black;
+}
+
+/*TD*/
+
+.igg_Header3
+{
+    background-color: #6EA3CC;
+    background-repeat: repeat-x;
+    background-image: url(../ig_res/Default/images/igg_header3.gif);
+    height: 20px;
+    color: Black;
+}
+
+/*TD*/
+
+.igg_Header4
+{
+    background-color: #488556;
+    background-repeat: repeat-x;
+    background-image: url(../ig_res/Default/images/igg_header4.gif);
+    height: 20px;
+    color: White;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.igg_Item
+{
+    background-color: White;
+    padding: 5px 8px 5px 8px;
+    overflow: hidden;
+    height: 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+
+.TD_Head_100
+{
+    width: 100px;
+    background-color: #E0E0E0;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: black;
+}
+.TD_Head_Auto
+{
+    width: auto;
+    background-color: #E0E0E0;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: black;
+}
+.TD_Content_Auto
+{
+    width: auto;
+    background-color: #FFFFFF;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: black;
+}
+
+.TD_sHead
+{
+    width: auto;
+    font-weight: bold;
+    background-color: #996666;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #ffffff;
+}
+.TD_Head
+{
+    width: 20%;
+    font-weight: bold;
+    background-color: #996666;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #ffffff;
+}
+.TD_Content
+{
+    width: 79%;
+    background-color: #FFF7FC;
+    border-color: #FFFFCC;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #000000;
+}
+.TD_sContent
+{
+    width: auto;
+    background-color: #FFF7FC;
+    border-color: #FFFFCC;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #000000;
+}
+
+/*GridView*/
+.gv
+{
+    border: thin double #d8d8d8;
+    background-color: #FFFFFF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #333333;
+    margin-right: 0px;
+}
+.gv_empty
+{
+    border-collapse: collapse;
+    font-size: 10pt;
+    color: #808080;
+    border: 1px solid #CC3300;
+}
+.gv_header
+{
+    background-color: #00922B;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gv_row
+{
+    background-color: #FFFFFF;
+    border-color: #FEFFF0;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #000000;
+}
+.gv_row_b
+{
+    background-color: #E8E8E8;
+    border-color: #FEFFF0;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 10pt;
+    color: #000000;
+}
+.gv_row_a
+{
+    background-color: #FFFBEE;
+    border-color: #FFFFFF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #000000;
+}
+
+.gv_pager
+{
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 10pt;
+    color: #330000;
+}
+
+/*漸層色按鈕 (粉紅底 紅框) */
+.Button_MouseOut {
+    /*border-right: #A30803 1px solid; 	padding-right: 2px; 	border-top: #A30803 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#005D8B); 	background-color: #005D8B; 	border-left: #A30803 1px solid; 	cursor: hand; 	color: #FFFFFF; 	padding-top: 2px; 	border-bottom: #A30803 1px solid;*/
+}
+.Button_MouseOver
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#005D8B); 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: #FFFFFF; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+.Button_MouseUp
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#005D8B); 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: #FFFFFF; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+.Button_MouseDown
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#FFDFDF); 	background-color: #005D8B; 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: #FFFFFF; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+
+
+.btn_mouseout
+{
+    /*border-right: #A30803 1px solid; 	padding-right: 2px; 	border-top: #FFFFFF 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#FDCBCB); 	border-left: #A30803 1px solid; 	cursor: hand; 	color: black; 	padding-top: 2px; 	border-bottom: #A30803 1px solid;*/
+}
+.btn_mouseover
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#E61818); 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: black; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+.btn_mouseup
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#FFDFDF); 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: black; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+.btn_mousedown
+{
+    /*border-right: #AA0109 1px solid; 	padding-right: 2px; 	border-top: #AA0109 1px solid; 	padding-left: 2px; 	font-size: 12px; 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#FFDFDF); 	border-left: #AA0109 1px solid; 	cursor: hand; 	color: black; 	padding-top: 2px; 	border-bottom: #AA0109 1px solid;*/
+}
+
+/*上下框線*/
+.LineImg
+{
+    height: 17px;
+    text-align: center;
+}
+
+/*左右灰線*/
+.LeftRightLine
+{
+    border: 1px solid #cccccc;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*左右紫紅線*/
+.LeftRightLine2
+{
+    border: 1px solid #bf2a6b;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*白字*/
+.text00 
+{
+    font-size: 12pt;
+    color: #ffffff;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+
+/*灰白字*/
+.text01 
+{
+    font-size: 13px;
+    color: #E8F3FB;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+
+/*藍字*/
+.text02 {
+    font-size: 13px;
+    color: #437ED4;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/*深藍字*/
+.text03 {
+    font-size: 13px;
+    color: #0000A5;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+/*紅字*/
+.text04 {
+    font-size: 13px;
+    color: #E10000;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+
+/*灰字*/
+.text05 {
+    font-size: 13px;
+    color: #000000;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+
+/*黑字*/
+.text06
+{
+    font-size: 13px;
+    color: black;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*綠字*/
+.text07
+{
+    font-size: 13px;
+    color: #00AA00;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+/*TextBox Right*/
+.align_Right
+{
+    text-align: right;
+}
+
+/*Pink Hue TextBox */
+.TextBox_Pink
+{
+    background-color: #FFFCFC;
+    border: 1px solid #FDCBCB;
+    padding: 1;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #0B0B0B;
+    line-height: 12pt;
+}
+
+
+/*Images基本樣式 */
+.img
+{
+    border: 0px;
+    vertical-align: middle;
+    border-style: none;
+    margin-right: 2px;
+}
+.imgBtn
+{
+    cursor: pointer;
+}
+
+/*文字連結效果1 藍-->白 */
+A.link-01-item:link 
+{
+    font-size: 13px;
+    color: #0000A5;
+    line-height: 12px;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+A.link-01-item:visited
+{
+    font-size: 13px;
+    color: #0000A5;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+A.link-01-item:hover
+{
+    font-size: 13px;
+    color: #2F502A;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+/*文字連結效果5 白-->灰 */
+A.link-05-item:link 
+{
+    font-size: 12px;
+    color: #FFFFFF;
+    line-height: 12px;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+A.link-05-item:visited
+{
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+A.link-05-item:hover
+{
+    font-size: 13px;
+    color: #E3E3E3;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+/*文字連結效果1 藍-->綠 */
+A.link-02-item:link
+{
+    font-size: 13px;
+    color: #0000A5;
+    line-height: 12px;
+    font-family: "Verdana" , "Tohoma" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+A.link-02-item:visited
+{
+    font-size: 13px;
+    color: #0000A5;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+A.link-02-item:hover
+{
+    font-size: 13px;
+    color: #008765;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+/*文字連結效果1 黑-->橘 */
+A.link-03-item:link
+{
+    font-size: 15px;
+    color: #0B0B0B;
+    line-height: 12px;
+    font-family: "Verdana" , "Tohoma" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+A.link-03-item:visited
+{
+    font-size: 15px;
+    color: #0B0B0B;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+A.link-03-item:hover
+{
+    font-size: 15px;
+    color: #FF4000;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+/*綠底白字-點選Tree Item使用*/
+.ClickItem
+{
+    font-size: 12pt;
+    color: #FFFFFF;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+    background-color: #008765;
+}
+
+
+
+.FormTitle 
+{
+    color: #FFFFFF;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #02507C;
+    font-weight: bold;
+    height: 25px;
+    letter-spacing: 2pt;
+    filter: progid:dximagetransform.microsoft.gradient(startcolorstr=#00B0F6, endcolorstr=#02507C, gradienttype=0 );
+}
+
+
+
+.FormTitle2 
+{
+    color: #FFFFFF;
+    font-size: 12pt;
+    text-align: center;
+    background-color: #02507C;
+    font-weight: bold;
+    height: 25px;
+    letter-spacing: 2pt;
+    filter: progid:dximagetransform.microsoft.gradient(startcolorstr=#00B0F6, endcolorstr=#02507C, gradienttype=0 );
+}
+
+
+
+.ms-formlabel
+{
+    width: 100px;
+    padding-right: 8px;
+    border-top: #d8d8d8 1px solid;
+    font-weight: bold;
+    font-size: 9pt;
+    padding-bottom: 6px;
+    color: #525252;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 1px solid #d8d8d8;
+}
+
+.ms-formlabel2 {
+    width: 100px;
+    padding-right: 8px;
+    border-top: #d8d8d8 1px solid;
+    font-weight: bold;
+    font-size: 10pt;
+    padding-bottom: 6px;
+    color: #525252;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 1px solid #d8d8d8;
+    background-color: #fffcd9;
+}
+
+.ms-formlabel3 {
+    width: 100px;
+    padding-right: 8px;
+    border-top: #d8d8d8 1px solid;
+    font-weight: bold;
+    font-size: 10pt;
+    padding-bottom: 6px;
+    color: #525252;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    border: 1px solid #d8d8d8;
+    background-color: #daf5d5;
+}
+
+.ms-formlabel-center
+{
+    width: 150px;
+    padding-right: 8px;
+    border-top: #d8d8d8 1px solid;
+    font-weight: bold;
+    font-size: 9pt;
+    padding-bottom: 6px;
+    color: #525252;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid #d8d8d8;
+}
+
+.ms-formbody
+{
+    padding-right: 6px;
+    border-top: #d8d8d8 1px solid;
+    padding-left: 6px;
+    font-size: 9pt;
+    background: #f7f6f3;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #d8d8d8;
+}
+
+.ms-formbody2 {
+    padding-right: 6px;
+    border-top: #d8d8d8 1px solid;
+    padding-left: 6px;
+    font-size: 9pt;
+    background: #fffcd9;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #d8d8d8;
+}
+
+.ms-formbody3 {
+    padding-right: 6px;
+    border-top: #d8d8d8 1px solid;
+    padding-left: 6px;
+    font-size: 9pt;
+    background: #daf5d5;
+    padding-bottom: 4px;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #d8d8d8;
+}
+
+/* ==========以下 TreeView 使用========== */
+
+.SubMenu
+{
+    font-size: 13px;
+    color: #0386BD;
+    line-height: 12px;
+    font-family: "Verdana" , "Tohoma" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+    font-weight: bold;
+}
+
+/*定選單寬度*/
+.menu_d
+{
+    margin-top: 0px;
+    margin-right: 12px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.menu
+{
+    font-size: 12px;
+}
+
+.menu a
+{
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px;
+}
+
+/*主選單*/
+.menu td.mainnav
+{
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #FFFFFF;
+    border-bottom-color: #CCCCCC;
+    font-weight: bold; /*filter: progid:dximagetransform.microsoft.gradient(startcolorstr= '#ffffff' , endcolorstr= '#FFFCD3' , gradienttype= '0' );*/
+    filter: progid:dximagetransform.microsoft.gradient(startcolorstr= #ffffff , endcolorstr= #FFFCD3 , gradienttype= 0 );
+}
+
+/*次選單*/
+.menu td.subnav
+{
+    text-indent: 0px;
+}
+.menu a:hover
+{
+    color: #FFFFFF;
+    background-color: #E91111;
+}
+
+/* ==========以上 TreeView 使用========== */
+
+
+
+/* ==========以下 渣打Skin========== */
+
+/*深灰字*/
+.skText 
+{
+    font-size: 10pt;
+    color: #383838;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+}
+.skTextBold 
+{
+    font-size: 13px;
+    color: #383838;
+    font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+    font-weight: bold;
+}
+/*Gary Hue TextBox */
+.skTextBox
+{
+    width: 110px;
+    background-color: #FFFCFC;
+    border: 1px solid #484848;
+    padding: 1;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #0B0B0B;
+    line-height: 12pt;
+}
+.skTextBoxReadOnly
+{
+    width: 110px;
+    background-color: #FFFCFC;
+    border: 0px;
+    padding: 1;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #0B0B0B;
+    line-height: 12pt;
+}
+.skTextBoxFull
+{
+    width: 95%;
+    background-color: #FFFCFC;
+    border: 1px solid #484848;
+    padding: 1;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #0B0B0B;
+    line-height: 12pt;
+}
+/*Gary Hue DropDownList */
+.skDropDownList
+{
+    background-color: #FFFCFC;
+    border: 1px solid #484848;
+    padding: 1;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #0B0B0B;
+    line-height: 12pt;
+}
+
+/* ==========以上 渣打用Skin========== */
+
+
+A.iTask_Groupbar:link
+{
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 12px;
+    font-family: "Verdana" , "Tohoma" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+A.iTask_Groupbar:visited
+{
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+A.iTask_Groupbar:hover
+{
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 25px;
+    word-spacing: 5px;
+}
+
+A.iTask_Listbar:link
+{
+    font-size: 13px; /*color: #780010; /*紅色系*/
+    color: #2A406F; /*紅藍系*/
+    line-height: 12px;
+    font-family: "Verdana" , "Tohoma" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 18px;
+    word-spacing: 1px;
+}
+A.iTask_Listbar:visited
+{
+    font-size: 13px; /*color: #780010; /*紅色系*/
+    color: #2A406F; /*紅藍系*/
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 18px;
+    word-spacing: 5px;
+}
+A.iTask_Listbar:hover
+{
+    font-size: 13px; /*color: #780010; /*紅色系*/
+    color: #2A406F; /*紅藍系*/
+    line-height: 16px;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    text-decoration: none;
+    line-height: 18px;
+    word-spacing: 5px;
+}
+
+
+/* ===========渣打新樣式(Try)============ */
+.btnLogon
+{
+    border: #0043A6 1px solid;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-size: 12px; /*filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#FFFFFF, EndColorStr=#005D8B);*/
+    background-color: #FFFFFF;
+    cursor: hand;
+    color: black;
+    padding-top: 2px;
+    width: 100px;
+    height: 30px;
+}
+
+.gvFormTitle
+{
+    color: #FFFFFF;
+    font-size: 9pt;
+    text-align: center;
+    background-color: #02507C;
+    font-weight: 500;
+    letter-spacing: 1pt;
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#00B0F6, EndColorStr=#02507C);
+}
+
+/* GridView */
+.gvMain
+{
+    background-color: #FFFFFF;
+    border-color: #d8d8d8;
+    border-style: double;
+    border-width: thin;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #333333;
+}
+
+.gvMain_Header
+{
+    background-color: #00922B;
+    border-color: #E7EFEF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.gvMain_Row
+{
+    border: thin solid #C0C0C0;
+    background-color: #FFFFFF;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #333333;
+}
+.gvMain_Row_2
+{
+    background-color: #F8FBF2;
+    border-color: #FEFFF0;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 8pt;
+    color: #333333;
+}
+
+.gvMain_EmptyRow
+{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #ECE9D8;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+    font-size: 10pt;
+    color: #333333;
+    border-style: none;
+}
+.Td_Content_L
+{
+    background-color: rgb(137, 156, 177);
+    color: rgb(255, 255, 255);
+    vertical-align: middle;
+    border-left: 2px ridge;
+    border-top: 2px ridge;
+    font: 12px/20px Arial,Helvetica,sans-serif;
+    padding-left: 3px;
+}
+Td_Border_L
+{
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: top;
+    border-left: 2px ridge;
+    border-top: 2px ridge;
+    width: 108px;
+    white-space: normal;
+}
+
+.gvMain_Row_MouseOver
+{
+    background-color: #FFEFD5;
+}
+
+
+
+/*
+RRMS
+*/
+
+
+/*Repeater*/
+
+.RP_F
+{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-color: #FFFFCC;
+    color: #000000;
+}
+
+.RP_T
+{
+    width: 100%;
+    background-color: #faebd7;
+    border-color: #FFFFCC;
+    color: #000000;
+}
+
+
+/*白字*/
+.text_White
+{
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*白字 斷行*/
+.text_White_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+/*灰白字*/
+.text_BlackWhite
+{
+    font-size: 13px;
+    color: #E8F3FB;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*灰白字 斷行*/
+.text_BlackWhite_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #E8F3FB;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+/*藍字*/
+.text_Blue
+{
+    font-size: 13px;
+    color: #437ED4;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*藍字*/
+.text_Blue_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #437ED4;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*深藍字*/
+.text_DarkBlue
+{
+    font-size: 13px;
+    color: #0000A5;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*深藍字 斷行*/
+.text_DarkBlue_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #0000A5;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*紅字*/
+.text_Red
+{
+    font-size: 13px;
+    color: #E10000;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*紅字 斷行*/
+.text_Red_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #E10000;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*灰字*/
+.text_Gray
+{
+    font-size: 13px;
+    color: Gray;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*灰字 斷行*/
+.text_Gray_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: Gray;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*黑字*/
+.text_Black
+{
+    font-size: 13px;
+    color: black;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*黑字 斷行*/
+.text_Black_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: black;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*綠字*/
+.text_Green
+{
+    font-size: 13px;
+    color: #00AA00;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+/*綠字_斷行*/
+.text_Green_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #00AA00;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+/*深紅*/
+.text_DarkRed
+{
+    font-size: 13px;
+    color: #A00200;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+/*深紅_斷行*/
+.text_DarkRed_Clip
+{
+    word-break: break-all;
+    font-size: 13px;
+    color: #A00200;
+    font-family: "Verdana" , "Arial" , "Helvetica" , "sans-serif";
+}
+
+
+
+/*-----以下Eden修改過的樣式-----*/
+
+/*表格td-標題*/
+.ms-formlabel_Test
+{
+    width: 150px;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    padding: 2px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: #e3eece;
+}
+
+/*表格td-內容*/
+.ms-formbody_Test
+{
+    font-size: 12px;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 8px;
+}
+
+/*GridView預設樣式-table*/
+.gv_Test
+{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #e3eece;
+}
+
+/*GridView預設樣式-th*/
+.gv_header th_Test
+{
+    background-color: #e3eece;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+/*GridView預設樣式-td*/
+.gv_row td_Test
+{
+    background-color: #f2f7e8;
+    border: 1px solid #fff;
+    border-bottom: none;
+}
+.gv_row a_Test
+{
+    text-decoration: none;
+    color: #005d9a;
+}
+.gv_row a:hover_Test
+{
+    text-decoration: underline;
+}
+
+/*GridView預設樣式-footer*/
+.gv_pager td_Test
+{
+    border: 1px solid #e5e9d8;
+}
+
+/*-----以下Jaco新增Panel的樣式-----*/
+
+
+.pnl_Ticket
+{
+    font-weight: bold;
+    border: 3px dashed #D7E4CA;
+}
+
+.pnl_Member
+{
+    border: 3px dashed #87EB88;
+}
+
+.pnl_Input
+{
+    border: 3px dashed #EB8887;
+}
+
+.pnl_StepList
+{
+    border: 3px dashed #6DA9E7;
+}
+
+
+
